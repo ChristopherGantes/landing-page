@@ -83,7 +83,6 @@
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 10px;
-
 }
 
 .info-section {
@@ -146,4 +145,41 @@
 .quote-section .by {
     width: 700px;
     text-align:right;
+}
+
+.signup-section {
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.signup-card {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 1000px;
+    
+    background-color: #3882F6;
+    border-radius: 14px;
+    padding: 50px 0px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-text .main-text {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.signup-text .subtext {
+    color: #F9FAF8;
+
+}
+
+.signup-card .signup {
+    border: 2px solid #E5E7EB;
 }
