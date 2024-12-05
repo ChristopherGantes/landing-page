@@ -7,7 +7,6 @@
 }
 
 .header,
-.footer,
 .hero-section,
 .info-section,
 .quote-section,
@@ -182,4 +181,12 @@
 
 .signup-card .signup {
     border: 2px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
